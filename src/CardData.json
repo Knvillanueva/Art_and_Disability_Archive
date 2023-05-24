@@ -1,15 +1,149 @@
 [
   {
     "id": 1,
-    "title": "The House",
-    "artist": "Addison Lappert",
-    "description": "Lorem ipsum da rahgrancur"
+    "artist": "David Borden",
+    "knownDisabilities": "Parent of disabled child: Physical Disability, amyotrophic lateral sclerosis, ALS",
+    "keyWorks": "And Yet We Rise, graphic novel, 2017",
+    "source": "https://www.impossibledreamstudio.com"
   },
   {
     "id": 2,
-    "title": "Kevin's house",
-    "artist": "Kevin the mad genius",
-    "description": "He rules"
+    "artist": "Ali Cavanaugh",
+    "knownDisabilities": "deafness",
+    "keyWorks": null,
+    "source": "https://www.facebook.com/groups/864751373634163/permalink/4844290642346863"
+  },
+  {
+    "id": 3,
+    "artist": "Francien Krieg",
+    "knownDisabilities": "mastectomy from breast cancer",
+    "keyWorks": "Wonders of Life, 2022",
+    "source": "https://www.facebook.com/photo/?fbid=335465758733363&set=gm.4968775773231682"
+  },
+  {
+    "id": 4,
+    "artist": "Joel-Peter Witkin",
+    "knownDisabilities": null,
+    "keyWorks": "Gambler (1986), Portrait of Greg Vaughan (2004), Feast of Fools (1990)",
+    "source": "https://www.artsy.net/artist/joel-peter-witkin"
+  },
+  {
+    "id": 5,
+    "artist": "Diane Arbus",
+    "knownDisabilities": null,
+    "keyWorks": "Mexican Dwarf (aka Cha Cha) in his hotel room (1970), Jewish Giant at Home with his Parents in the Bronx, Ny (1970)",
+    "source": "The Disabled Body in Contemporary Art, Ann Millett-Gallant http://www.artnet.com/artists/diane-arbus/"
+  },
+  {
+    "id": 6,
+    "artist": "Riva Lehrer",
+    "knownDisabilities": "Born with spina bifida",
+    "keyWorks": "Tekki Lomnicki (1999)",
+    "source": "The Disabled Body in Contemporary Art, Ann Millett-Gallant https://www.rivalehrerart.com/"
+  },
+  {
+    "id": 7,
+    "artist": "Frida Kahlo",
+    "knownDisabilities": "disabled by polio as a child, injured in bus accident at the age of 18 causing her lifelong medical problems",
+    "keyWorks": "Self Portrait (1940), What the water gave me (1938), Two Nudes in a Forest (1939)",
+    "source": "https://www.fridakahlo.org/"
+  },
+  {
+    "id": 8,
+    "artist": "Ricardo Gil",
+    "knownDisabilities": "little person",
+    "keyWorks": "Johann's Kiss (1999), Bird (1999), Mannequins (1999-2003)",
+    "source": "The Disabled Body in Contemporary Art, Ann Millett-Gallant, https://scholarspace.manoa.hawaii.edu/bitstream/10125/58395/1/686.pdf"
+  },
+  {
+    "id": 9,
+    "artist": "Susan Harbage Page",
+    "knownDisabilities": null,
+    "keyWorks": "Peter's World (1985-2005)",
+    "source": "Disability and Art History Susan Harbage Page, Ann Millett-Gallant https://susanharbagepage.com/"
+  },
+  {
+    "id": 10,
+    "artist": "Kieran Cashell",
+    "knownDisabilities": null,
+    "keyWorks": "Aftershock (2009)",
+    "source": "Disability & Art History Millett-Gallant and Howie"
+  },
+  {
+    "id": 11,
+    "artist": "Jack and Dinos Chapman",
+    "knownDisabilities": null,
+    "keyWorks": "Sculpture Ubermensch (1995)",
+    "source": null
+  },
+  {
+    "id": 12,
+    "artist": "Bourke White",
+    "knownDisabilities": null,
+    "keyWorks": "You Have Seen Their Faces, Happy Hallo, Georgia (1937)",
+    "source": null
+  },
+  {
+    "id": 13,
+    "artist": "Ralph Morse",
+    "knownDisabilities": null,
+    "keyWorks": "Nine-Year-Old Neil Koenigm Who Has Cerebal Palsy, Walking Unassisted (1950)",
+    "source": null
+  },
+  {
+    "id": 14,
+    "artist": "Edward Steichen",
+    "knownDisabilities": null,
+    "keyWorks": "Family of Man exhibition (1955)",
+    "source": null
+  },
+  {
+    "id": 15,
+    "artist": "Cornell Capa",
+    "knownDisabilities": null,
+    "keyWorks": "Retarded Children (1954) Life Magzaine images",
+    "source": null
+  },
+  {
+    "id": 16,
+    "artist": "Bruce Davis",
+    "knownDisabilities": null,
+    "keyWorks": "The Dwarf in a restaurant (1958), Magnum Photos",
+    "source": null
+  },
+  {
+    "id": 17,
+    "artist": "Gary Winpgrand",
+    "knownDisabilities": null,
+    "keyWorks": "American Legion Convention Dallas (1964), Fraenkel Gallery, San Francisco",
+    "source": null
+  },
+  {
+    "id": 18,
+    "artist": "Dishan (Sandie) Yi",
+    "knownDisabilities": null,
+    "keyWorks": "Unica Bound (1958), Can I Be Sexy for Once? (2005), Footwear Close-Up (2005), Animal Instinct (2005)",
+    "source": null
+  },
+  {
+    "id": 19,
+    "artist": "Hans Bellmer",
+    "knownDisabilities": null,
+    "keyWorks": null,
+    "source": null
+  },
+  {
+    "id": 20,
+    "artist": "Lewis Hine Wickes",
+    "knownDisabilities": "Visual Blindness",
+    "keyWorks": "A Bachelor's Drawer (1890-1894), The Slate (1856-1933)",
+    "source": "The Routledge Companion to Art and Disability"
+  },
+  {
+    "id": 21,
+    "artist": "Mary Duffy",
+    "knownDisabilities": "Born without arms",
+    "keyWorks": null,
+    "source": "https://adiarts.ie/artists/showcasing/meet-an-artist/mary-duffy/"
   }
 ]
-

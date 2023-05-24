@@ -2,8 +2,10 @@ import { useState } from "react";
 import Alert from "./components/Alert";
 import { Button } from "./components/Button";
 import { Home } from "./pages/Home";
-import CardList from "./components/CardTest";
+import SearchList from "./components/Search";
+import CardList from "./components/Collection";
 import CardData from "./CardData.json";
+import bootstrap from "bootstrap/dist/css/bootstrap.css";
 
 import {
   BrowserRouter as Router,
@@ -15,35 +17,74 @@ import {
 
 function App() {
   const [alertVisible, setAlertVisability] = useState(false);
-  //const artCollection: Item[] = CardData;
 
   return (
     <div>
-      {alertVisible && (
-        <Alert onClose={() => setAlertVisability(false)}>My alert</Alert>
-      )}
-      <Button color="secondary" onClick={() => setAlertVisability(true)}>
-        My Button
-      </Button>
-      <h1>This is the heehee page</h1>;
       <Router>
         <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/CardTest">CardTest</Link>
-              </li>
-              <li>
-                <Link to="/search">Search</Link>
-              </li>
-            </ul>
+          <nav className="navbar navbar-dark bg-dark">
+            <div className="container-fluid">
+              <a className="navbar-brand">
+                From Access to Acceptance: The Role of Disability in Art
+              </a>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
+                <li className="nav-item">
+                  <Link className="nav-link d-inline-flex" to="/">
+                    Home
+                  </Link>
+                </li>
+              </ul>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
+                <li className="nav-item">
+                  <Link className="nav-link d-inline-flex" to="/Collection">
+                    Full Collection
+                  </Link>
+                </li>
+              </ul>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
+                <li className="nav-item">
+                  <Link className="nav-link d-inline-flex" to="/search">
+                    Search
+                  </Link>
+                </li>
+              </ul>
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="https://humanitiescollaborative.utep.edu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="src/assets/HCLogo.png"
+                      alt="Humanities Collaboraive Logo"
+                      style={{ width: "50px", height: "50px" }}
+                    />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="https://www.utep.edu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="src/assets/utep_logo.png"
+                      alt="UTEP Logo"
+                      style={{ width: "60px", height: "40px" }}
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </nav>
 
           <Routes>
-            <Route path="/CardTest" element={<CardTest />} />
+            <Route path="/Collection" element={<CardList />} />
+            <Route path="/search" element={<SearchPage />} />
+            <Route path="/search/:searchTerm" element={<SearchList />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
@@ -52,10 +93,26 @@ function App() {
   );
 }
 
-function CardTest() {
+function SearchPage() {
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    navigate(`/search/${searchTerm}`);
+  };
+
   return (
     <div>
-      <CardList></CardList>
+      <form onSubmit={handleSearch}>
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Search by Known Disabilities..."
+        />
+        <button type="submit">Search</button>
+      </form>
     </div>
   );
 }
