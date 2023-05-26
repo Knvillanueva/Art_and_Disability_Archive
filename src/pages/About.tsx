@@ -10,31 +10,32 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Katherine Villenueva",
-    title: "Spider-Person",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl: "",
-  },
-  {
     name: "Melissa Warak",
     title: "Primary Investigator",
-    description:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imageUrl: "",
+    description: "",
+    imageUrl: "src/assets/mcwarak.jpeg",
   },
   {
     name: "Jessica Gomez",
     title: "Research Fellow",
     description:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "I have completed my Undergraduate degree in English and American Literature, with a minor in mathematics. My research interest has been focused on the Haitian Revolution and Caribbean Diaspora and how one can use the archives as a lens through which to read contemporary literature. My studies will be continued at the University of Virginia's English Ph.D. program.",
     imageUrl: "src/assets/Jessica.jpg",
+  },
+  {
+    name: "Katherine Villenueva",
+    title: "Research Fellow",
+    description:
+      "I am currently a rising senior undergraduate student majoring in English American Literature, with a minor in Creative Writing at The University of Texas at El Paso. I assisted in this research project by investigating the intersection of disability and art, aimed at promoting inclusivity and accessibility within cultural institutions. My engagement in this project has exposed me to different research and investigation methodologies and additionally provided me with the opportunity to enhance my software development skills.",
+    imageUrl: "src/assets/KnVillanueva.png",
   },
 ];
 
 const About: React.FC = () => {
   return (
     <div className="container">
-      <h1 className="mt-4">About Us</h1>
+      <h1 className="mt-4">Team</h1>
+      <div className="mt-4 d-flex align-items-center"></div>
       <div className="row">
         {teamMembers.map((member, index) => (
           <div className="col-md-4" key={index}>
@@ -44,7 +45,7 @@ const About: React.FC = () => {
                   className="rounded-circle"
                   src={member.imageUrl}
                   alt={member.name}
-                  style={{ width: "200px", height: "200px" }}
+                  style={{ width: "220px", height: "250px" }}
                 />
               </div>
               <div className="card-body text-center">

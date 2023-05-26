@@ -22,7 +22,6 @@ export const Biblio: React.FC = () => {
   return (
     <div>
       <h1>Bibliography</h1>
-
       <BiblioEntry
         title="And Yet We Rise"
         author="Borden, David"
@@ -53,7 +52,6 @@ export const Biblio: React.FC = () => {
         year="2014"
         description="Kuppers introduces students to the works of disabled artists and encourages undergraduate students to question their own positionality in the classroom and the world. Kuppers provides a series of exercises, word association maps, essay questions, and various other activities to engage the students into the discourse. Some of the chapter topics include accommodations in the classroom, the language of disability, and how we think about power relations, rules, the public and private, an introduction to disability as a field, perspectives, and an introduction to disability culture. The chapters also focus on a range of parts of the field of disability studies from the institution to theatre, dance, and media portrayal that sensualizes disability, to autism and ends with classroom activities and resources. This book is particularly useful in our research as it provides a structure and flow of approach to studying disabilities art to undergraduates. The resources and activities invite the students into the discourse of disability and challenge their own positionality while introducing an undergraduate student to the artist, allies, and history of the social construction of disabilities."
       />
-
       <BiblioEntry
         title="Disability Visibility: First-Person Stories from the Twenty-First Century"
         author="Markotić, Nicole"
@@ -61,7 +59,6 @@ export const Biblio: React.FC = () => {
         year="2016"
         description="Nicole Markotić forges the public’s impulsive diagnostic response to the media’s presentation of disability in media such as in literature and in film, usually portrayed as a negative counter to the ideal positive. The social ideal perfect healthy body is revealed as discrimination and oppression in these different representations of disabled characters although Markotić additionally looks at positive depictions. Satirical humor targeting disability is blurred with deliberate literal attacks and reveals the hidden discrimination behind metaphorical language that is in everyday conversation and across media. The commodification of the disabled body exploits an individual’s identity through mass culture such as commercials meant to pull at heartstrings for an emotional response evoking pity. Additionally, Markotić visits media that are meant to deliberately mock these same disability tropes. This book is particularly useful in our research as it questions the media that we consume, and everyday rhetoric having hidden discriminatory meaning behind it is intentionally patronizing those with visible and invisible disabilities."
       />
-
       <BiblioEntry
         title="The Disabled Body in Contemporary Art"
         author="Millett-Gallant, Ann"
@@ -69,7 +66,6 @@ export const Biblio: React.FC = () => {
         year="2010"
         description="Millett-Gallant critically analyzes representations of disability in different historical artworks and how it contributes to disability studies– as well as the cultural and societal response to these artworks that subvert the conventions of aesthetics and normativity for artwork and the human body. Diverse artists such as Mary Duffy, Frida Kahlo, Diego Velázquez, Joel-Peter Witkin, Marc Quinn, Sandie Yi, and more mentioned throughout the book represented disabilities in their artwork with several different formats of presentation and styles explored by Millett-Gallant. The importance of visual culture art intertwined with disability studies allows for an audience to gaze and stare at disabled bodies, mediating everyday social interactions, assumptions, and constructions. This book is particularly useful in our research as every artwork that presents a disability is expanded, and different techniques being symbolic and examined very closely enhances the importance of representation instead of negatively responding to disfigurement and what is not familiar."
       />
-
       <BiblioEntry
         title="Disability and Art History"
         author="Millett-Gallant, Ann and Elizabeth Howie"
@@ -77,7 +73,6 @@ export const Biblio: React.FC = () => {
         year="2016"
         description="In this book, Millett-Gallant and Howie explore ways in which art history and disability studies overlap in terms of the general public’s often negative response to representations of disability, stereotypes and diagnostic assumptions, the “stare” and “gaze”, the social construction of disability, and the differences in representation between invisible and visible disabilities. Disability studies are engaged in terms of its implications for societal oppression, and it is through the arts that allow disabled individuals to identify, define, and embrace themselves rather than be defined and assumed by others. Art history critically examines artwork through historical context, production, and social commentary thus identity is a vital theme. This book is useful in our research as it reveals the stigmatization of disability representation was traditionally studied only as a symbolic function in historical artwork and how this correlates with hurtful stereotypes of disability today."
       />
-
       <BiblioEntry
         title="Bodies in Commotion: Disability and Performance"
         author="Sandahl, Carrie, and Phillip Auslander, eds"
