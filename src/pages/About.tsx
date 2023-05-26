@@ -24,7 +24,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Katherine Villenueva",
-    title: "Research Fellow",
+    title: "Research Fellow, \n\nWeb-apprentice",
     description:
       "I am currently a rising senior undergraduate student majoring in English American Literature, with a minor in Creative Writing at The University of Texas at El Paso. I assisted in this research project by investigating the intersection of disability and art, aimed at promoting inclusivity and accessibility within cultural institutions. My engagement in this project has exposed me to different research and investigation methodologies and additionally provided me with the opportunity to enhance my software development skills.",
     imageUrl: "src/assets/KnVillanueva.png",
@@ -39,13 +39,20 @@ const About: React.FC = () => {
       <div className="row">
         {teamMembers.map((member, index) => (
           <div className="col-md-4" key={index}>
-            <div className="card mb-4">
-              <div className="d-flex justify-content-center align-items-center">
+            <div className="card mb-4 text-center">
+              <div
+                className="rounded-circle overflow-hidden"
+                style={{ width: "250px", height: "250px", margin: "0 auto" }}
+              >
                 <img
-                  className="rounded-circle"
+                  className="rounded-circle img-fluid"
                   src={member.imageUrl}
                   alt={member.name}
-                  style={{ width: "220px", height: "250px" }}
+                  style={{
+                    objectFit: "cover",
+                    width: "100%",
+                    height: "100%",
+                  }}
                 />
               </div>
               <div className="card-body text-center">

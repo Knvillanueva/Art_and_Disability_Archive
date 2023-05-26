@@ -1,6 +1,20 @@
 import React, { useState } from "react";
+import { Home } from "../pages/Home";
+import { SearchPage } from "../pages/SearchPage";
+import About from "../pages/About";
+import SearchList from "./Search";
+import CardList from "./Collection";
+import Biblio from "../pages/Biblio";
+import {
+  BrowserRouter as Router,
+  HashRouter,
+  Route,
+  Link,
+  Routes,
+  useNavigate,
+} from "react-router-dom";
 
-const NavBar: React.FC = () => {
+export const NavBar: React.FC = () => {
   const [showDropdown, setShowDropdown] = useState(false);
 
   const handleDropdownToggle = () => {
@@ -8,64 +22,61 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDarkDropdown"
-          aria-controls="navbarNavDarkDropdown"
-          aria-expanded={showDropdown ? "true" : "false"}
-          aria-label="Toggle navigation"
-          onClick={handleDropdownToggle}
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className={`collapse navbar-collapse ${showDropdown ? "show" : ""}`}
-          id="navbarNavDarkDropdown"
-        >
-          <ul className="navbar-nav">
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDarkDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded={showDropdown ? "true" : "false"}
-              >
-                Dropdown
-              </a>
-              <ul
-                className="dropdown-menu dropdown-menu-dark"
-                aria-labelledby="navbarDarkDropdownMenuLink"
-              >
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+    <HashRouter>
+      <div>
+        <nav className="navbar navbar-dark bg-dark">
+          <div className="container-fluid">
+            <a className="navbar-brand">
+              From Access to Acceptance: The Role of Disability in Art
+            </a>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
+              <li className="nav-item">
+                <Link className="nav-link d-inline-flex" to="/">
+                  Home
+                </Link>
+              </li>
+            </ul>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
+              <li className="nav-item">
+                <Link className="nav-link d-inline-flex" to="/Collection">
+                  Full Collection
+                </Link>
+              </li>
+            </ul>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
+              <li className="nav-item">
+                <Link className="nav-link d-inline-flex" to="/search">
+                  Search
+                </Link>
+              </li>
+            </ul>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
+              <li className="nav-item">
+                <Link className="nav-link d-inline-flex" to="/about">
+                  About
+                </Link>
+              </li>
+            </ul>
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
+              <li className="nav-item">
+                <Link className="nav-link d-inline-flex" to="/Bibliography">
+                  Bibliography
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <Routes>
+          <Route path="/Collection" element={<CardList />} />
+          <Route path="/search" element={<SearchPage />} />
+          <Route path="/search/:searchTerm" element={<SearchList />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Bibliography" element={<Biblio />} />
+        </Routes>
       </div>
-    </nav>
+    </HashRouter>
   );
 };
 
