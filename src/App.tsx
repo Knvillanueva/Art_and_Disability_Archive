@@ -54,7 +54,7 @@ function App() {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
                 <li className="nav-item">
                   <Link className="nav-link d-inline-flex" to="/about">
-                    About Us!
+                    About
                   </Link>
                 </li>
               </ul>
@@ -135,5 +135,15 @@ function SearchPage() {
     </div>
   );
 }
+
+const NavBar: React.FC = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
+  return (
+    <div>
+      <NavBar />
+      {/* Rest of your app content */}
+    </div>
+  );
+};
 
 export default App;
