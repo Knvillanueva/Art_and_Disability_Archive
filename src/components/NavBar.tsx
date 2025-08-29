@@ -5,30 +5,23 @@ import About from "../pages/About";
 import SearchList from "./Search";
 import CardList from "./Collection";
 import Biblio from "../pages/Biblio";
-import {
-  BrowserRouter as Router,
-  HashRouter,
-  Route,
-  Link,
-  Routes,
-  useNavigate,
-} from "react-router-dom";
+import { HashRouter, Route, Link, Routes } from "react-router-dom";
 
 export const NavBar: React.FC = () => {
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const handleDropdownToggle = () => {
-    setShowDropdown(!showDropdown);
-  };
+  const handleDropdownToggle = () => setShowDropdown((s) => !s);
 
   return (
     <HashRouter>
       <div>
         <nav className="navbar navbar-dark bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand">
+            {/* Use Link so it respects the router */}
+            <Link className="navbar-brand" to="/">
               From Access to Acceptance: The Role of Disability in Art
-            </a>
+            </Link>
+
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
               <li className="nav-item">
                 <Link className="nav-link d-inline-flex" to="/">
@@ -36,6 +29,7 @@ export const NavBar: React.FC = () => {
                 </Link>
               </li>
             </ul>
+
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
               <li className="nav-item">
                 <Link className="nav-link d-inline-flex" to="/Collection">
@@ -43,6 +37,7 @@ export const NavBar: React.FC = () => {
                 </Link>
               </li>
             </ul>
+
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
               <li className="nav-item">
                 <Link className="nav-link d-inline-flex" to="/search">
@@ -50,6 +45,7 @@ export const NavBar: React.FC = () => {
                 </Link>
               </li>
             </ul>
+
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
               <li className="nav-item">
                 <Link className="nav-link d-inline-flex" to="/about">
@@ -57,6 +53,7 @@ export const NavBar: React.FC = () => {
                 </Link>
               </li>
             </ul>
+
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-inline-flex">
               <li className="nav-item">
                 <Link className="nav-link d-inline-flex" to="/Bibliography">
@@ -68,11 +65,11 @@ export const NavBar: React.FC = () => {
         </nav>
 
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/Collection" element={<CardList />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/search/:searchTerm" element={<SearchList />} />
           <Route path="/about" element={<About />} />
-          <Route path="/" element={<Home />} />
           <Route path="/Bibliography" element={<Biblio />} />
         </Routes>
       </div>
