@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Card, Button, Modal, Spinner } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
+import rawData from "../CardData.json"; // ← if this file is in src/components/, this path is correct
 
 interface CardData {
   id: number;
@@ -10,35 +11,49 @@ interface CardData {
   source: string;
 }
 
+const data: CardData[] = rawData as CardData[];
+
 const SearchList: React.FC = () => {
+  const { searchTerm: searchParam } = useParams<{ searchTerm?: string }>();
+  const [searchTerm, setSearchTerm] = useState<string>(searchParam ?? "");
   const [isLoading, setIsLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [selectedCard, setSelectedCard] = useState<CardData | null>(null);
-  const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
-  const [cardData, setCardData] = useState<Record<number, CardData>>({});
 
+  // Simulate async load (so the spinner shows briefly and matches your Collection pattern)
   useEffect(() => {
-    // Fetch card data from the local repository
-    const fetchCardData = async () => {
-      try {
-        const response = await fetch("/src/CardData.json");
-        const data: CardData[] = await response.json();
-
-        const cardDataHash = data.reduce((hash, card) => {
-          hash[card.id] = card;
-          return hash;
-        }, {} as Record<number, CardData>);
-
-        setCardData(cardDataHash);
-        setIsLoading(false);
-      } catch (error) {
-        console.error("Error fetching card data:", error);
-      }
-    };
-
-    fetchCardData();
+    setIsLoading(false);
   }, []);
+
+  // Keep input in sync if user navigates with back/forward or deep links
+  useEffect(() => {
+    setSearchTerm(searchParam ?? "");
+  }, [searchParam]);
+
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const q = searchTerm.trim();
+    // HashRouter: this becomes #/search/<term>
+    navigate(q ? `/search/${encodeURIComponent(q)}` : "/search");
+  };
+
+  const filteredCards = useMemo(() => {
+    const q = searchTerm.trim().toLowerCase();
+    if (!q) return data;
+    return data.filter((card) => {
+      const haystack = [
+        card.artist,
+        card.keyWorks,
+        card.knownDisabilities,
+        card.source,
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return haystack.includes(q);
+    });
+  }, [searchTerm]);
 
   const handleCardClick = (card: CardData) => {
     setSelectedCard(card);
@@ -46,20 +61,8 @@ const SearchList: React.FC = () => {
   };
 
   const handleDescriptionClick = (url: string) => {
-    // Navigate to the specified URL
-    if (url && url.includes("http")) {
-      window.location.href = url;
-    }
+    if (url && url.startsWith("http")) window.location.href = url;
   };
-
-  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    navigate(`/search/${searchTerm}`);
-  };
-
-  const filteredCards = Object.values(cardData).filter((card) =>
-    card.knownDisabilities?.toLowerCase().includes(searchTerm.toLowerCase())
-  );
 
   return (
     <div>
@@ -69,11 +72,12 @@ const SearchList: React.FC = () => {
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Search by Known Disabilities..."
+            placeholder="Search artist, works, disabilities…"
           />
           <button type="submit">Search</button>
         </form>
       </div>
+
       <div className="card-list">
         {isLoading ? (
           <Spinner animation="border" variant="primary" />
@@ -97,10 +101,7 @@ const SearchList: React.FC = () => {
                       {card.source}
                     </button>
                   </Card.Text>
-                  <Button
-                    variant="primary"
-                    onClick={() => handleCardClick(card)}
-                  >
+                  <Button variant="primary" onClick={() => handleCardClick(card)}>
                     View Details
                   </Button>
                 </Card.Body>
