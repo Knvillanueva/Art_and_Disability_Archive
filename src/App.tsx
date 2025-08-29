@@ -1,5 +1,4 @@
 import NavBar from "./components/NavBar";
-// Import Bootstrap CSS properly (no variable assignment)
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
 }
 
 function Foot() {
-  // ✅ Resolve images that live in src/assets
+  // Resolve images that live in src/assets
   const hcLogo = new URL("./assets/HCLogo.png", import.meta.url).href;
   const utepLogo = new URL("./assets/utep_logo.png", import.meta.url).href;
 

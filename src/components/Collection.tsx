@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Card, Button, Modal, Spinner } from "react-bootstrap";
-// NOTE: adjust the path if your file isn't at src/CardData.json
-import rawData from "../CardData.json"; // or "./CardData.json" depending on location
+
+import rawData from "../CardData.json"; 
 
 type CardData = {
   id: number;

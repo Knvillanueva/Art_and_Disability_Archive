@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Card, Button, Modal, Spinner } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
-import rawData from "../CardData.json"; // ← if this file is in src/components/, this path is correct
+import rawData from "../CardData.json"; 
 
 interface CardData {
   id: number;

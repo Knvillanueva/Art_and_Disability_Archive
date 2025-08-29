@@ -1,5 +1,5 @@
 import React from "react";
-// Import Bootstrap CSS correctly
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 interface TeamMember {
@@ -9,7 +9,6 @@ interface TeamMember {
   imageUrl: string; // resolved, final URL
 }
 
-// Because About.tsx is in src/pages/, go up one level to src/assets/
 const teamMembers: TeamMember[] = [
   {
     name: "Melissa Warak",
