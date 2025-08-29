@@ -1,37 +1,28 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import { Card, Button, Modal, Spinner } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+// NOTE: adjust the path if your file isn't at src/CardData.json
+import rawData from "../CardData.json"; // or "./CardData.json" depending on location
 
-interface CardData {
+type CardData = {
   id: number;
   artist: string;
   knownDisabilities: string;
   keyWorks: string;
   source: string;
-}
+};
+
+// Give the JSON a type so TS is happy
+const cardData = rawData as CardData[];
 
 const CardList: React.FC = () => {
   const [cards, setCards] = useState<CardData[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [selectedCard, setSelectedCard] = useState<CardData | null>(null);
-  const navigate = useNavigate();
 
   useEffect(() => {
-    // Fetch card data from the local repository
-    const fetchCardData = async () => {
-      try {
-        const response = await fetch("src/CardData.json");
-        const data: CardData[] = await response.json();
-        setCards(data);
-        setIsLoading(false);
-      } catch (error) {
-        console.error("Error fetching card data:", error);
-      }
-    };
-
-    fetchCardData();
+    setCards(cardData);
+    setIsLoading(false);
   }, []);
 
   const handleCardClick = (card: CardData) => {
@@ -40,8 +31,7 @@ const CardList: React.FC = () => {
   };
 
   const handleDescriptionClick = (url: string) => {
-    // Navigate to the specified URL
-    if (url.includes("http")) {
+    if (url.startsWith("http")) {
       window.location.href = url;
     }
   };
