@@ -1,149 +1,349 @@
 [
-  {
-    "id": 1,
-    "artist": "David Borden",
-    "knownDisabilities": "Parent of disabled child: Physical Disability, amyotrophic lateral sclerosis, ALS",
-    "keyWorks": "And Yet We Rise, graphic novel, 2017",
-    "source": "https://www.impossibledreamstudio.com"
-  },
-  {
-    "id": 2,
-    "artist": "Ali Cavanaugh",
-    "knownDisabilities": "deafness",
-    "keyWorks": null,
-    "source": "https://www.facebook.com/groups/864751373634163/permalink/4844290642346863"
-  },
-  {
-    "id": 3,
-    "artist": "Francien Krieg",
-    "knownDisabilities": "mastectomy from breast cancer",
-    "keyWorks": "Wonders of Life, 2022",
-    "source": "https://www.facebook.com/photo/?fbid=335465758733363&set=gm.4968775773231682"
-  },
-  {
-    "id": 4,
-    "artist": "Joel-Peter Witkin",
-    "knownDisabilities": null,
-    "keyWorks": "Gambler (1986), Portrait of Greg Vaughan (2004), Feast of Fools (1990)",
-    "source": "https://www.artsy.net/artist/joel-peter-witkin"
-  },
-  {
-    "id": 5,
-    "artist": "Diane Arbus",
-    "knownDisabilities": null,
-    "keyWorks": "Mexican Dwarf (aka Cha Cha) in his hotel room (1970), Jewish Giant at Home with his Parents in the Bronx, Ny (1970)",
-    "source": "The Disabled Body in Contemporary Art, Ann Millett-Gallant http://www.artnet.com/artists/diane-arbus/"
-  },
-  {
-    "id": 6,
-    "artist": "Riva Lehrer",
-    "knownDisabilities": "Born with spina bifida",
-    "keyWorks": "Tekki Lomnicki (1999)",
-    "source": "The Disabled Body in Contemporary Art, Ann Millett-Gallant https://www.rivalehrerart.com/"
-  },
-  {
-    "id": 7,
-    "artist": "Frida Kahlo",
-    "knownDisabilities": "disabled by polio as a child, injured in bus accident at the age of 18 causing her lifelong medical problems",
-    "keyWorks": "Self Portrait (1940), What the water gave me (1938), Two Nudes in a Forest (1939)",
-    "source": "https://www.fridakahlo.org/"
-  },
-  {
-    "id": 8,
-    "artist": "Ricardo Gil",
-    "knownDisabilities": "little person",
-    "keyWorks": "Johann's Kiss (1999), Bird (1999), Mannequins (1999-2003)",
-    "source": "The Disabled Body in Contemporary Art, Ann Millett-Gallant, https://scholarspace.manoa.hawaii.edu/bitstream/10125/58395/1/686.pdf"
-  },
-  {
-    "id": 9,
-    "artist": "Susan Harbage Page",
-    "knownDisabilities": null,
-    "keyWorks": "Peter's World (1985-2005)",
-    "source": "Disability and Art History Susan Harbage Page, Ann Millett-Gallant https://susanharbagepage.com/"
-  },
-  {
-    "id": 10,
-    "artist": "Kieran Cashell",
-    "knownDisabilities": null,
-    "keyWorks": "Aftershock (2009)",
-    "source": "Disability & Art History Millett-Gallant and Howie"
-  },
-  {
-    "id": 11,
-    "artist": "Jack and Dinos Chapman",
-    "knownDisabilities": null,
-    "keyWorks": "Sculpture Ubermensch (1995)",
-    "source": null
-  },
-  {
-    "id": 12,
-    "artist": "Bourke White",
-    "knownDisabilities": null,
-    "keyWorks": "You Have Seen Their Faces, Happy Hallo, Georgia (1937)",
-    "source": null
-  },
-  {
-    "id": 13,
-    "artist": "Ralph Morse",
-    "knownDisabilities": null,
-    "keyWorks": "Nine-Year-Old Neil Koenigm Who Has Cerebal Palsy, Walking Unassisted (1950)",
-    "source": null
-  },
-  {
-    "id": 14,
-    "artist": "Edward Steichen",
-    "knownDisabilities": null,
-    "keyWorks": "Family of Man exhibition (1955)",
-    "source": null
-  },
-  {
-    "id": 15,
-    "artist": "Cornell Capa",
-    "knownDisabilities": null,
-    "keyWorks": "Retarded Children (1954) Life Magzaine images",
-    "source": null
-  },
-  {
-    "id": 16,
-    "artist": "Bruce Davis",
-    "knownDisabilities": null,
-    "keyWorks": "The Dwarf in a restaurant (1958), Magnum Photos",
-    "source": null
-  },
-  {
-    "id": 17,
-    "artist": "Gary Winpgrand",
-    "knownDisabilities": null,
-    "keyWorks": "American Legion Convention Dallas (1964), Fraenkel Gallery, San Francisco",
-    "source": null
-  },
-  {
-    "id": 18,
-    "artist": "Dishan (Sandie) Yi",
-    "knownDisabilities": null,
-    "keyWorks": "Unica Bound (1958), Can I Be Sexy for Once? (2005), Footwear Close-Up (2005), Animal Instinct (2005)",
-    "source": null
-  },
-  {
-    "id": 19,
-    "artist": "Hans Bellmer",
-    "knownDisabilities": null,
-    "keyWorks": null,
-    "source": null
-  },
-  {
-    "id": 20,
-    "artist": "Lewis Hine Wickes",
-    "knownDisabilities": "Visual Blindness",
-    "keyWorks": "A Bachelor's Drawer (1890-1894), The Slate (1856-1933)",
-    "source": "The Routledge Companion to Art and Disability"
-  },
-  {
-    "id": 21,
-    "artist": "Mary Duffy",
-    "knownDisabilities": "Born without arms",
-    "keyWorks": null,
-    "source": "https://adiarts.ie/artists/showcasing/meet-an-artist/mary-duffy/"
-  }
-]
+  
+    {
+      "id": 1,
+      "artist": "David Borden",
+      "knownDisabilities": "Parent of a child with profound physical disabilities and amyotrophic lateral sclerosis (ALS); work addresses disability, caregiving, and grief.",
+      "keyWorks": "And Yet We Rise: A Tale of Coping, Overcoming, and Transcending, graphic novel, 2017",
+      "source": "https://www.impossibledreamstudio.com"
+    },
+    {
+      "id": 2,
+      "artist": "Ali Cavanaugh",
+      "knownDisabilities": "Deafness / profound hearing loss; incorporates her experience of being deaf into her painting practice.",
+      "keyWorks": "Modern fresco watercolor portrait series on clay panels (2000s–present)",
+      "source": "https://www.facebook.com/groups/864751373634163/permalink/4844290642346863"
+    },
+    {
+      "id": 3,
+      "artist": "Francien Krieg",
+      "knownDisabilities": "None documented for the artist; key works focus on women who have undergone mastectomy for breast cancer and on aging bodies.",
+      "keyWorks": "Wonders of Life, 2022",
+      "source": "https://www.facebook.com/photo/?fbid=335465758733363&set=gm.4968775773231682"
+    },
+    {
+      "id": 4,
+      "artist": "Joel-Peter Witkin",
+      "knownDisabilities": "None documented; photographic practice centers disabled, intersex, and non-normative bodies and cadavers.",
+      "keyWorks": "Gambler (1986), Portrait of Greg Vaughan (2004), Feast of Fools (1990)",
+      "source": "https://www.artsy.net/artist/joel-peter-witkin"
+    },
+    {
+      "id": 5,
+      "artist": "Diane Arbus",
+      "knownDisabilities": "Lived with severe depression and mental illness; her work often engages marginalized and disabled subjects.",
+      "keyWorks": "Mexican Dwarf (aka Cha Cha) in His Hotel Room (1970); Jewish Giant at Home with His Parents in the Bronx, N.Y. (1970)",
+      "source": "Ann Millett-Gallant, The Disabled Body in Contemporary Art; http://www.artnet.com/artists/diane-arbus/"
+    },
+    {
+      "id": 6,
+      "artist": "Riva Lehrer",
+      "knownDisabilities": "Born with spina bifida; disabled artist and portraitist.",
+      "keyWorks": "Tekki Lomnicki (1999) from the Circle Stories portrait series",
+      "source": "Ann Millett-Gallant, The Disabled Body in Contemporary Art; https://www.rivalehrerart.com/"
+    },
+    {
+      "id": 7,
+      "artist": "Frida Kahlo",
+      "knownDisabilities": "Childhood polio and catastrophic bus accident at 18 leading to spinal, pelvic, and leg injuries and lifelong pain and disability.",
+      "keyWorks": "Self-Portrait with Cropped Hair (1940); What the Water Gave Me (1938); Two Nudes in a Forest (1939)",
+      "source": "https://www.fridakahlo.org/"
+    },
+    {
+      "id": 8,
+      "artist": "Ricardo Gil",
+      "knownDisabilities": "Dwarfism (little person); photographic work and self-representation as a disabled subject.",
+      "keyWorks": "Johann's Kiss (1999); Bird (1999); Mannequins (1999–2003)",
+      "source": "Ann Millett-Gallant, The Disabled Body in Contemporary Art; https://scholarspace.manoa.hawaii.edu/bitstream/10125/58395/1/686.pdf"
+    },
+    {
+      "id": 9,
+      "artist": "Susan Harbage Page",
+      "knownDisabilities": "None documented; her series Peter's World centers her brother Peter, who has Down syndrome.",
+      "keyWorks": "Peter's World (1985–2005), photographic series of the artist’s brother Peter",
+      "source": "Susan Harbage Page & Ann Millett-Gallant, “Artists and Muses: ‘Peter’s World’ and Other Photographs,” in Disability and Art History; https://susanharbagepage.com/"
+    },
+    {
+      "id": 10,
+      "artist": "Kieran Cashell",
+      "knownDisabilities": "None documented; philosopher and critic of contemporary transgressive art involving disability and the body.",
+      "keyWorks": "Aftershock: The Ethics of Contemporary Transgressive Art (2009)",
+      "source": "Ann Millett-Gallant & Elizabeth Howie, Disability and Art History; https://www.bloomsbury.com/us/aftershock-9781845115241/"
+    },
+    {
+      "id": 11,
+      "artist": "Jake and Dinos Chapman",
+      "knownDisabilities": "None documented; create works featuring disabled subjects, including depictions of Stephen Hawking.",
+      "keyWorks": "Sculpture Übermensch (portrait of Stephen Hawking), 1995",
+      "source": "Referenced in Disability and Art History; various exhibition catalogues"
+    },
+    {
+      "id": 12,
+      "artist": "Margaret Bourke-White",
+      "knownDisabilities": "Parkinson's disease (diagnosed in the early 1950s), leading to progressive disability and multiple brain surgeries.",
+      "keyWorks": "You Have Seen Their Faces (with Erskine Caldwell, 1937); photographic essays for LIFE magazine",
+      "source": "https://en.wikipedia.org/wiki/Margaret_Bourke-White; https://www.life.com/lifestyle/parkinsons-disease-life-magazine/"
+    },
+    {
+      "id": 13,
+      "artist": "Ralph Morse",
+      "knownDisabilities": "None documented; LIFE photographer whose work includes images of disabled children.",
+      "keyWorks": "Nine-Year-Old Neil Koenigm, Who Has Cerebral Palsy, Walking Unassisted (1950), LIFE magazine photo essay",
+      "source": "LIFE magazine archives (1950 photographic essays)"
+    },
+    {
+      "id": 14,
+      "artist": "Edward Steichen",
+      "knownDisabilities": "None documented; curator whose exhibition included images of disabled people and disabled veterans.",
+      "keyWorks": "The Family of Man exhibition (1955, Museum of Modern Art, New York)",
+      "source": "MoMA, The Family of Man exhibition catalogue"
+    },
+    {
+      "id": 15,
+      "artist": "Cornell Capa",
+      "knownDisabilities": "None documented; photojournalist whose work focuses on mentally disabled children among other social issues.",
+      "keyWorks": "Photographic essay Retarded Children (Life, October 18, 1954); book Retarded Children Can Be Helped (1957)",
+      "source": "Life Magazine, Oct. 18, 1954; https://www.originallifemagazines.com/product/life-magazine-october-18-1954/; https://www.jewishvirtuallibrary.org/capa-cornell"
+    },
+    {
+      "id": 16,
+      "artist": "Bruce Davidson",
+      "knownDisabilities": "None documented; Magnum photographer whose Circus series portrays a dwarf clown and other disabled circus performers.",
+      "keyWorks": "The Dwarf, Jimmy Armstrong, Circus (1958) from the Circus series",
+      "source": "https://www.magnumphotos.com/arts-culture/society-arts-culture/it-always-has-to-come-from-inside-bruce-davidson-retrospective/; https://chrysler.emuseum.com/objects/66328/circus"
+    },
+    {
+      "id": 17,
+      "artist": "Garry Winogrand",
+      "knownDisabilities": "None documented; street photographer whose work includes images of disabled veterans and American social life.",
+      "keyWorks": "American Legion Convention, Dallas, Texas (1964)",
+      "source": "Mary Warner Marien, 100 Ideas That Changed Photography; Fraenkel Gallery, San Francisco"
+    },
+    {
+      "id": 18,
+      "artist": "Chun-Shan (Sandie) Yi",
+      "knownDisabilities": "Congenital limb difference: born with two fingers on each hand and two toes on each foot; identifies as a disabled artist and disability culture worker.",
+      "keyWorks": "Crip Couture (2011–ongoing) wearable art series; disability-fashion body adornments exhibited internationally",
+      "source": "https://www.3arts.org/artist/sandie-yi/; https://www.saic.edu/news/body-talk"
+    },
+    {
+      "id": 19,
+      "artist": "Hans Bellmer",
+      "knownDisabilities": "None documented; work obsessively represents fragmented, dismembered, or doll-like bodies that intersect with discourses of disability and the abject.",
+      "keyWorks": "Die Puppe (The Doll) series, mid-1930s",
+      "source": "Metropolitan Museum of Art, The Doll; surrealism/surrealist sculpture scholarship"
+    },
+    {
+      "id": 20,
+      "artist": "Lewis Wickes Hine",
+      "knownDisabilities": "Visual impairment later in life; some scholarship discusses his late-life vision issues in relation to disability and seeing.",
+      "keyWorks": "Making Human Junk (1914) child-labor poster; photographs of workers with postural deformities, scoliosis, and other disabilities (early 1900s)",
+      "source": "The Routledge Companion to Art and Disability; https://en.wikipedia.org/wiki/Lewis_Hine"
+    },
+    {
+      "id": 21,
+      "artist": "Mary Duffy",
+      "knownDisabilities": "Born without arms (bilateral upper-limb amelia); Irish performance and visual artist.",
+      "keyWorks": "Self-portrait nude posing performances; featured in the documentary Vital Signs: Crip Culture Talks Back (1996)",
+      "source": "https://adiarts.ie/artists/showcasing/meet-an-artist/mary-duffy/"
+    },
+    {
+      "id": 22,
+      "artist": "John Haberle",
+      "knownDisabilities": "Visual disability / eye problems in later life that limited his ability to produce detailed trompe-l’œil works.",
+      "keyWorks": "A Bachelor's Drawer (c. 1890–1894); The Slate (c. 1895)",
+      "source": "The Routledge Companion to Art and Disability; https://udspace.udel.edu/items/ddc768eb-489f-47fa-8046-1aefa63aa932; https://en.wikipedia.org/wiki/John_Haberle"
+    },
+    {
+      "id": 23,
+      "artist": "Attilio Piccirilli",
+      "knownDisabilities": "None documented; sculpture Eternal Youth has been analyzed as embodying fascist ideals of the 'able body' and eugenic beauty.",
+      "keyWorks": "Eternal Youth (Rockefeller Center, New York)",
+      "source": "Rockefeller Center Archives; Disability and Art History scholarship on fascist aesthetics"
+    },
+    {
+      "id": 24,
+      "artist": "Aldo Buttini",
+      "knownDisabilities": "None documented; public sculptures such as those at Chieti and Ragusa express fascist-era ideals of the strong, able-bodied citizen.",
+      "keyWorks": "Monumental sculptures at Chieti and Ragusa (1930s)",
+      "source": "National Archive of the Netherlands, Willem van de Poll Photo Collection"
+    },
+    {
+      "id": 25,
+      "artist": "Robert Graham",
+      "knownDisabilities": "None documented for the artist; his memorial sculpture represents Franklin Delano Roosevelt, who used a wheelchair due to a paralytic illness commonly attributed to polio.",
+      "keyWorks": "Franklin Delano Roosevelt Memorial (Washington, D.C.), including FDR in a wheelchair",
+      "source": "U.S. National Park Service (NPS) documentation; NPS/Victoria Stauffenberg photo credit"
+    },
+    {
+      "id": 26,
+      "artist": "Mary Duffy",
+      "knownDisabilities": "Bilateral upper-limb amelia (born without arms); appears as a key figure in crip culture media and disability-arts documentaries.",
+      "keyWorks": "Appearance and interview in Vital Signs: Crip Culture Talks Back (1996) and other disability-arts media",
+      "source": "Vital Signs: Crip Culture Talks Back (documentary); https://adiarts.ie/artists/showcasing/meet-"
+  
+    },
+    {
+      "id": 29,
+      "artist": "Diane Arbus",
+      "knownDisabilities": "Depression; long-term mental health struggles; died by suicide in 1971.",
+      "keyWorks": "Child with a Toy Hand Grenade in Central Park, N.Y.C., 1962; A Jewish giant at home with his parents in the Bronx, N.Y.C., 1970; Photographic series of marginalized subjects including people with physical and mental disabilities, 1960s.",
+      "source": "https://www.theartstory.org/artist/arbus-diane/"
+    },
+    {
+      "id": 30,
+      "artist": "Thomas Hart Benton",
+      "knownDisabilities": "No documented disability; The Lord is My Shepherd (1926) depicts elderly Deaf neighbors from the Martha’s Vineyard Deaf community, associated with local sign language use.",
+      "keyWorks": "The Lord is My Shepherd, 1926 (portrait of Deaf couple George and Sabrina West from the Chilmark Deaf community on Martha’s Vineyard).",
+      "source": "https://whitney.org/collection/works/489"
+    },
+    {
+      "id": 31,
+      "artist": "Jake and Dinos Chapman",
+      "knownDisabilities": "No documented disability; Übermensch (Portrait of Stephen Hawking) represents physicist Stephen Hawking, who had amyotrophic lateral sclerosis (ALS) and used a wheelchair.",
+      "keyWorks": "Übermensch (Portrait of Stephen Hawking), 1995.",
+      "source": "https://www.christies.com/en/lot/lot-5335328"
+    },
+    {
+      "id": 32,
+      "artist": "Shannon Finnegan",
+      "knownDisabilities": "Cerebral palsy and chronic illness-related access needs; disabled artist whose work focuses on fatigue, mobility, and accessibility in public and museum spaces.",
+      "keyWorks": "Do you want us here or not, 2018–ongoing (bench series about museum accessibility); Crip Time, ongoing text- and furniture-based works; The only thing I like about stairs is that they can be a place to sit in a pinch, c. 2021.",
+      "source": "https://shannonfinnegan.com/do-you-want-us-here-or-not"
+    },
+    {
+      "id": 33,
+      "artist": "Liza Sylvestre",
+      "knownDisabilities": "Progressive hearing loss beginning in childhood; Deaf/hard-of-hearing artist reflecting on communication, sensory loss, and language.",
+      "keyWorks": "Wha_ i_ I _old you a __ory in a language I _an _ear, 2014 (video work reciting a poem first normally and then only the sounds she can hear).",
+      "source": "https://www.lizasylvestre.com/__a_-i_-i-_old-you-a-__ory-in-a-language-i-_an-_ear"
+    },
+    {
+      "id": 34,
+      "artist": "Barton Cooke Hirst and George Arthur Piersol",
+      "knownDisabilities": "Conjoined twins (ectopagus dicephalus dibrachius tripus) depicted: twin infants joined at the thorax with two heads, two upper limbs, and three lower limbs.",
+      "keyWorks": "“Ectopagus” dicephalus dibrachius tripus twins, from Human Monstrosities, Part IV, c. 1891–1893; photograph later reproduced in “A Century of Medical Oddities,” Newsweek, January 7, 2008.",
+      "source": "https://archive.org/details/humanmonstrositi00hirs"
+    },
+    {
+      "id": 35,
+      "artist": "Gary Leib",
+      "knownDisabilities": "No documented disability; “Disability Chic” satirizes fashioning disability and the superficial use of disability imagery, and has been critiqued in disability-aesthetics scholarship.",
+      "keyWorks": "“Disability Chic,” cartoon published in New York Press, February 2–11, 1998.",
+      "source": "https://dokumen.pub/disability-aesthetics-corporealities-discourses-of-disability-illustrated-0472071009-9780472071005.html"
+    },
+    {
+      "id": 36,
+      "artist": "René Magritte",
+      "knownDisabilities": "No known disability; Les Menottes de cuivre reconfigures the classical female body (after the Venus de Milo) into a fragmented, partly flesh-colored figure often cited in disability-aesthetics discussions.",
+      "keyWorks": "Les menottes de cuivre (Copper Handcuffs), 1931 (or 1930s), painted sculpture based on the Venus de Milo, Royal Museums of Fine Arts of Belgium, Brussels.",
+      "source": "https://www.wikiart.org/en/rene-magritte/copper-handcuffs-1931"
+    },
+    {
+      "id": 37,
+      "artist": "Conrad Felixmüller",
+      "knownDisabilities": "No documented disability; Disabled Workers depicts physically disabled industrial workers and veterans in post–World War I Germany.",
+      "keyWorks": "Disabled Workers, 1922, drawing/print representing injured laborers (Art Institute of Chicago).",
+      "source": "https://www.artic.edu/artworks/198865/disabled-workers"
+    },
+    {
+      "id": 38,
+      "artist": "Aristide Maillol",
+      "knownDisabilities": "No documented disability; Les Deux Baigneuses is frequently discussed in relation to disability aesthetics and the fragmentary/classical body (in dialogue with works like the Venus de Milo).",
+      "keyWorks": "Les Deux Baigneuses ou Dina de dos et de profil, 1938, oil on canvas, Fondation Dina Vierny–Musée Maillol, Paris.",
+      "source": "https://museemaillol.com/la-fondation-dina-vierny-musee-maillol-trois-decennies-dhistoire/"
+    },
+    {
+      "id": 39,
+      "artist": "Yinka Shonibare",
+      "knownDisabilities": "Transverse myelitis leading to permanent hemiparesis and partial paralysis; uses braces, crutches, and an electric wheelchair; openly identifies as a disabled artist.",
+      "keyWorks": "The Swing (after Fragonard), 2001; Nelson’s Ship in a Bottle, 2010; recurrent use of headless or constrained figures in Dutch wax fabric exploring race, class, empire, and embodied limitation.",
+      "source": "https://yinkashonibare.com"
+    },
+    {
+      "id": 40,
+      "artist": "Mark di Suvero",
+      "knownDisabilities": "Severe spinal injuries and broken back from a 1960 construction accident; was paralyzed from the waist/hips down for several years and used a wheelchair, leg braces, and crutches; later had a leg amputated after a welding injury.",
+      "keyWorks": "Are Years What? (for Marianne Moore), 1967; large-scale crane-built steel sculptures produced after his accident that reimagine sculptural labor with disability.",
+      "source": "https://www.spacetimecc.com/About-the-Artist"
+    },
+    {
+      "id": 41,
+      "artist": "Christine Sun Kim",
+      "knownDisabilities": "Deaf since birth; primary language is American Sign Language (ASL); her practice explicitly centers Deaf culture and communication barriers.",
+      "keyWorks": "Degrees of Deaf Rage in Everyday Situations, 2018; Close Readings, 2015; The Sound of… drawing series, 2017–ongoing; works derived from her ASL performance of the U.S. national anthem at Super Bowl LIV, 2020.",
+      "source": "https://christinesunkim.com"
+    },
+    {
+      "id": 42,
+      "artist": "Vincent van Gogh",
+      "knownDisabilities": "Serious mental illness with episodes of psychosis, depression, self-harm, and hospitalization; historical debates include possible epilepsy and other neuropsychiatric diagnoses.",
+      "keyWorks": "Self-Portrait with Bandaged Ear, 1889; The Starry Night, 1889; Wheatfield with Crows, 1890.",
+      "source": "https://www.vangoghmuseum.nl/en"
+    },
+    {
+      "id": 43,
+      "artist": "Francisco Goya",
+      "knownDisabilities": "Profound deafness following a severe, undiagnosed illness around 1793, accompanied by vertigo, headaches, and hallucinations; lived and worked as a Deaf artist for the last decades of his life.",
+      "keyWorks": "Los Caprichos print series, 1797–1798 (including The Sleep of Reason Produces Monsters); Black Paintings, c. 1819–1823 (such as Saturn Devouring His Son and other works reflecting his post-illness outlook).",
+      "source": "https://www.theartstory.org/artist/goya-francisco/"
+    },
+    {
+      "id": 44,
+      "artist": "Sophie Calle",
+      "knownDisabilities": "No known disability; Blind (Les Aveugles) centers people born blind describing their ‘image of beauty’ and juxtaposes their portraits with text and photographs of what they describe.",
+      "keyWorks": "Blind (Les Aveugles / The Blind) series, 1986, including works such as Blind #14 and The Blind No. 11 “Sheep are beautiful.”",
+      "source": "https://www.metmuseum.org/art/collection/search/284117"
+    },
+    {
+      "id": 45,
+      "artist": "Chuck Close",
+      "knownDisabilities": "Dyslexia; prosopagnosia (face blindness); spinal artery collapse in 1988 resulting in partial paralysis and long-term wheelchair use.",
+      "keyWorks": "Big Self-Portrait, 1967–1968; Self-Portrait series, 1990s–2000s; large-scale gridded portraits created after his 1988 paralysis using a brush strapped to his wrist.",
+      "source": "https://www.pacegallery.com/artists/chuck-close/"
+    },
+    {
+      "id": 46,
+      "artist": "Bogdan Tomashevsky",
+      "knownDisabilities": "Multiple sclerosis, diagnosed in 2011; his practice reflects the impact of chronic illness on movement, perception, and architectural space.",
+      "keyWorks": "Sculptural and installation works in clay, metal, polymer glass, and natural materials exploring body, memory, and landscape (ongoing).",
+      "source": "https://www.disabilityartsinternational.org/artists/profiles/bogdan-tomashevskiy/"
+    },
+    {
+      "id": 47,
+      "artist": "Judith Scott",
+      "knownDisabilities": "Down syndrome; congenital deafness; labeled as having an intellectual disability and nonverbal; institutionalized for decades before beginning to make art at Creative Growth.",
+      "keyWorks": "Untitled fiber-wrapped sculptures created 1988–2005 using found objects bound with yarn, twine, and fabric (Creative Growth Art Center corpus).",
+      "source": "https://creativegrowth.org/judith-scott"
+    },
+    {
+      "id": 48,
+      "artist": "Richard Wawro",
+      "knownDisabilities": "Autism (autistic savant); considered legally blind after cataract surgery; described as having significant visual impairment from childhood.",
+      "keyWorks": "Large-scale wax crayon landscapes and seascapes, 1960s–2000s (over 4,000 drawings), including Scottish and European coastal scenes collected internationally.",
+      "source": "https://www.wawro.net/public/www/Richard_Wawro/Home.html"
+    },
+    {
+      "id": 49,
+      "artist": "Henri Matisse",
+      "knownDisabilities": "Severe illness and abdominal cancer in 1941; major surgery left him largely bedridden and using a wheelchair for the last decade of his life.",
+      "keyWorks": "Jazz (cut-out book), 1947; Blue Nude II, 1952; late cut-out series created while working from bed or wheelchair (‘painting with scissors’).",
+      "source": "https://www.theartstory.org/artist/matisse-henri/"
+    },
+    {
+      "id": 50,
+      "artist": "Henri de Toulouse-Lautrec",
+      "knownDisabilities": "Bone disease and childhood fractures that stunted leg growth, leaving him of short stature with significant mobility impairment; often linked to genetic disorder (e.g., pycnodysostosis) and complicated by alcoholism.",
+      "keyWorks": "At the Moulin Rouge, 1892–1895; posters for the Moulin Rouge and other Parisian cabarets, 1890s, depicting nightlife from the vantage point of a disabled artist.",
+      "source": "https://www.theartstory.org/artist/toulouse-lautrec-henri/"
+    },
+    {
+      "id": 51,
+      "artist": "Claude Monet",
+      "knownDisabilities": "Progressive bilateral cataracts beginning in his 60s; underwent cataract surgery and wore tinted lenses, with significant impact on color perception and his late painting style. Visual Blindess.",
+      "keyWorks": "Water Lilies (Nymphéas) series, c. 1897–1926; late Giverny pond paintings made while coping with cataract-impaired vision.",
+      "source": "https://www.theartstory.org/artist/monet-claude/"
+    }
+    
+    
+  ]
